@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* logo开始 */
+.logo {
+    height: 120px;
+}
+.logo .logotu{
+    position: relative;
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+}
+.logo .logotu .sosuo{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+.logo .logotu .sosuo ul li{
+    display: inline-block;
+    margin-bottom: 10px;
+    
+}
+.logo .logotu .sosuo ul li a{
+    font-size: 14px;
+    color: #000;
+}
+.logo .logotu .sosuo input{
+    float: left;
+    height: 20px;
+    width: 199px;
+    border: 1px solid #000;
+  
+}
+.logo .logotu .sosuo form a{
+    display: inline-block;
+    float: left;
+    height: 20px;
+    width: 30px;
+    border: 1px solid #000;
+    border-left: 0px;
+}
+/* logo结束 */
+/* 导航栏 */
+.nav{
+    height: 48px;
+    background-color: #006239;
+}
+.nav .na{
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav .na ul{
+    float: left;
+    height: 48px;
+    width: 110px;
+    overflow: hidden;
+}
+.nav .na ul li{
+   
+    background-color: #006239;
+}
+.nav .na ul li h3 {
+    display: inline-block;
+    height: 48px;
+    width: 110px;
+    text-align: center;
+    
+}
+.nav .na ul li h3 a{
+    line-height: 48px;
+    color: #fff;
+}
+/* 导航栏结束 */
